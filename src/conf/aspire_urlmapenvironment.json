@@ -1,0 +1,11 @@
+{
+  "production": {
+    "fetchDashboardList": "/metricstream/api/tasks/fetch-DashboardList",
+    "fetchDashboardURL": "/metricstream/api/tasks/fetch-DashboardURL",
+    "fetchSelfServiceURL": "/metricstream/api/tasks/fetch-SelfServiceURL",
+    "fetchAskMeURL": "/metricstream/api/tasks/fetch-AskMeURL",
+    "fetchReportMetaData": "/metricstream/api/tasks/fetch-ReportMetaData",
+    "fetchReportObjects": "/metricstream/api/fetch-reportobjects",
+    "fetchClientObjects": "/metricstream/api/fetch-clientobjects"
+  }
+}
