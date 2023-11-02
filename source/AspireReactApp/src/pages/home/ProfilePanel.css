@@ -66,7 +66,6 @@
 .Profile-list-item {
   width: 280px;
   height: 36px;
-
   &.MuiListItemButton-root {
     display: flex;
     padding: 14px 24px;
@@ -104,7 +103,7 @@
   width: 250px;
   height: 44px;
   border-radius: 4px;
-  padding-left: 13px;
+  padding-left: 12px;
 }
 
 .Logout-button {
@@ -166,7 +165,6 @@
     text-transform: uppercase;
   }
 }
-
 .Listitem-text {
   &.MuiTypography-root {
     font-family: Open Sans Variable;

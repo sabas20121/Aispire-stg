@@ -18,6 +18,8 @@ import {
 
 import ai from '../../assets/ai.svg'
 import aispire from '../../assets/aispire.svg'
+import metricstreamaispire from '../../assets/metricstream-aispire.svg'
+import msai from '../../assets/ms-ai.svg'
 import chatquestionicon from '../../assets/chatquestionicon.svg'
 import chatquestioniconfilled from '../../assets/chatquestioniconfilled.svg'
 import chevronleft from '../../assets/chevronleft.svg'
@@ -67,7 +69,7 @@ let components = {
 const Branding = ({ open }) => {
   return (
     <Box id="brand" className={`Brand ${open ? '' : 'Brand-closed'}`}>
-      <img src={open ? aispire : ai} alt="brand" width="200px" height="48px" />
+      <img src={open ? metricstreamaispire : ai} alt="brand" width={open ? "208px" : "200px"} height={open ? "69px" : "48px"} />
     </Box>
   )
 }

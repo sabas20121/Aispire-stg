@@ -7,7 +7,7 @@ import {
   renderLoadingMessage
 } from '../../components/ScreenStates/screenState'
 
-export default function Reports() {
+export default function GraphExplorer() {
   const [screenState, setScreenState] = useState(ScreenStates.LOADING)
 
   const handleLoad = () => {

@@ -1,9 +1,24 @@
 [
     {
+        "key": "settings",
+        "title": "Settings",
+        "icon": "gear",
+        "tooltip": "Access the settings menu",
+        "expand": "settingsPanel"
+    },
+    {
+        "key": "notifications",
+        "title": "Notifications",
+        "icon": "notificationbell",
+        "tooltip": "View your notifications",
+        "expand": "notificationsPanel"
+    },
+    {
         "key": "profile",
         "path": "/profile",
         "icon": "avatar",
         "component": "profile",
-        "tooltip": "Access your profile details"
+        "tooltip": "Access your profile details",
+        "expand": "profilePanel"
     }
 ]
